@@ -1,0 +1,600 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+header {
+    background-color: rgb(208, 196, 221);
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 1rem;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+    color: rgb(36, 3, 44); 
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px;
+    color: blueviolet;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 2px;
+    color: rgb(252, 70, 191);
+    font-size: 2rem;
+}
+
+h5{
+    width: 50%;
+    padding: auto;
+    text-align:center;
+    font-size: 1.3rem;
+    color: rgb(127, 4, 151); 
+    padding-bottom: 2rem;
+}
+ 
+nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(36, 3, 43);
+    text-decoration: none;
+    margin-left: 1rem;
+    
+        
+}
+  
+a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.logo{
+    width: 90%;
+    height: 3rem;
+    top: 7px;
+    left: 90%;
+    
+}
+footer{
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 1rem ;
+}
+
+footer h3{
+    color: rgb(26, 3, 31);
+    font-size: 1rem;
+    height: 5vh;
+
+}
+
+footer {
+    background-color: rgb(208, 196, 221);
+}
+
+
+.banner{
+
+    width: 60%;
+    padding-top: 2rem;
+         
+}
+
+.text1 {
+    width: 50%;
+    padding: 5rem;
+    text-align:right;
+    font-size: 1.3rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 1rem; 
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin: 1rem;
+}
+
+.img1 {
+    width: 50%;
+    padding: 2rem;
+    
+}
+
+.twocolumns {
+    width: 30%;
+    height: 30vh;
+    padding: 2rem;
+    object-fit: contain;
+}
+
+.text2 {
+    width: 50%;
+    padding: 5rem;
+    text-align:left;
+    font-size: 1.3rem;
+    color: rgb(127, 4, 151); 
+}
+
+
+#cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+
+#cont2 {
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    gap: 1rem;
+    color: rgb(127, 4, 151);   
+    
+}
+
+.cont3{
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    gap: 1rem;
+    color: rgb(127, 4, 151); 
+}
+
+.contact{
+
+    width: 60%;
+    padding-top: 2rem;
+    
+         
+}
+
+#cont4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+table,tr,th,td {
+    border: 2px solid rgb(111, 21, 114);
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+th{
+    font-size: 2rem;
+    padding: 1rem;
+    color: blueviolet;
+    background-color: rgb(218, 201, 235);
+}
+
+td{
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: blueviolet;
+    background-color: rgb(218, 201, 235);
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+ol {
+    width: 45vw;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.list{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: 3rem;   
+
+}
+li{
+    color: rgb(61, 6, 63);
+}
+
+.first{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+        
+}
+
+
+.pic{
+    width: 30vw;
+    margin: 1rem;
+
+}
+
+.form{
+    
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    border: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.paymenttext{
+    color: white;
+    font-size: large;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms{
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-size: medium;
+}
+
+.button {
+    background-color: rgb(22, 1, 24);
+    color: rgb(255, 255, 255);
+    border: 1rem;
+    border-color: black;
+    border-radius: 1rem;
+    padding: .5rem;
+    box-shadow: rgba(225, 89, 243, 0.445) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+
+
+.raffle{
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+h3{
+    color: blueviolet;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+/*tablet*/   /* Desde 768px hasta 1023px incluido*/
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    #cont2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+        text-shadow: 2px;
+        color: blueviolet;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    h2{
+        text-align: center;
+        text-shadow: 1px;
+        color: rgb(252, 70, 191);
+        font-size: 1.3rem;
+    }
+    header {
+        background-color: rgb(245, 188, 231);
+        position: sticky;
+        top: 0rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 30vh;
+        
+    }
+    .logo{
+        width: 80%;
+        height: 2.5rem;
+        object-fit: contain;
+                      
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text1 {
+        width: 50%;
+        padding: 5rem;
+        text-align:center;
+        font-size: 1.3rem;
+        background-color: rgb(255, 255, 255);
+        padding: 1rem;
+        border-radius: 1rem; 
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        margin: 1rem;
+    }
+    
+    .img1 {
+        width: 50%;
+        padding: .5rem;
+        
+    }
+    .cont3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: contain;
+        gap: 1rem;
+        color: rgb(127, 4, 151); 
+    }
+    .text2 {
+        width: 50%;
+        padding: 1rem;
+        text-align:center;
+        font-size: 1.3rem;
+        color: rgb(127, 4, 151); 
+    }
+    .twocolumns {
+        height: 30vh;
+        padding: 1rem;
+        object-fit: contain;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+        object-fit: contain;
+    }
+    th{
+        font-size: 1rem;
+        padding: 1rem;
+        color: blueviolet;
+        background-color: rgb(218, 201, 235);
+    }
+    
+    td{
+        font-size: 1rem;
+        padding: 1rem;
+        color: blueviolet;
+        background-color: rgb(218, 201, 235);
+    }
+    ol {
+        width: 70vw;
+        margin-left: 0rem;
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+    ul {
+        list-style-type: square;
+        margin-left: 1rem;
+        font-size: 1rem;
+        padding: .5rem;
+    }
+    .first{
+        display: flex; 
+        flex-direction: column;   
+        align-items: center;
+        justify-content: center;
+            
+    }
+    
+    
+    .pic{
+        width: 70vw;
+        height: 15rem;
+        object-fit: contain;
+        margin: 1rem;
+    
+    }
+
+    .raffle{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        padding: 2rem;
+    }
+
+    footer {
+        position: sticky;
+        bottom: 0;
+        background-color: rgb(245, 188, 231);
+    }
+}
+/*mobile*/  /* Desde el más pequeño hasta 767px incluido*/
+@media only screen  and (max-width:767px) {
+    
+    #cont2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+        text-shadow: 2px;
+        color: blueviolet;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    h2{
+        text-align: center;
+        text-shadow: 1px;
+        color: rgb(252, 70, 191);
+        font-size: 1.3rem;
+    }
+    header {
+        background-color: rgb(128, 138, 180);
+        position: sticky;
+        top: 0rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 30vh;
+        
+    }
+    .logo{
+        width: 80%;
+        height: 2.5rem;
+        object-fit: contain;
+                      
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text1 {
+        width: 50%;
+        padding: 5rem;
+        text-align:center;
+        font-size: 1.3rem;
+        background-color: rgb(255, 255, 255);
+        padding: 1rem;
+        border-radius: 1rem; 
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        margin: 1rem;
+    }
+    
+    .img1 {
+        width: 50%;
+        padding: .5rem;
+        
+    }
+    .cont3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: contain;
+        gap: 1rem;
+        color: rgb(127, 4, 151); 
+    }
+    .text2 {
+        width: 50%;
+        padding: 1rem;
+        text-align:center;
+        font-size: 1.3rem;
+        color: rgb(127, 4, 151); 
+    }
+    .twocolumns {
+        height: 30vh;
+        padding: 1rem;
+        object-fit: contain;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+        object-fit: contain;
+    }
+    th{
+        font-size: 1rem;
+        padding: 1rem;
+        color: blueviolet;
+        background-color: rgb(218, 201, 235);
+    }
+    
+    td{
+        font-size: 1rem;
+        padding: 1rem;
+        color: blueviolet;
+        background-color: rgb(218, 201, 235);
+    }
+    ol {
+        width: 100vw;
+        margin-left: 0rem;
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+    ul {
+        list-style-type: square;
+        margin-left: 1rem;
+        font-size: 1rem;
+        padding: .5rem;
+    }
+
+    .first{
+        display: flex; 
+        flex-direction: column;   
+        align-items: center;
+        justify-content: center;
+        object-fit: contain;
+            
+    }
+    
+    
+    .pic{
+        width: 80vw;
+        margin: .5rem;
+    
+    }
+
+    .raffle{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        padding: 2rem;
+    }
+
+    footer {
+        position: sticky;
+        bottom: 0;
+        background-color: rgb(128, 138, 180);
+    }
+}
+
+
+
+
+
+
+
